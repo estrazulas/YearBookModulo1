@@ -1,0 +1,263 @@
+body{
+    font-family: Georgia, Times, serif;
+    font-size: 1.2em;
+    width: 80%;
+    min-width: 33em;
+    margin: auto;
+}
+
+ul a{
+    text-decoration: none;
+    color: green;
+}
+
+div.listathumbs{
+    border-radius: 0.5em 0.4em 0.6em 0.7em;
+    border-style: solid;
+    border-color: green;
+    border-width:thin;
+    width: 400px;
+    margin:auto;
+    margin-top:1.5em;
+    text-align:center;
+}
+
+div.adir{
+	width: 80%;
+	text-align: right;	
+	padding-right:5em;
+}
+p.minifonte{
+	font-size: 0.7em;
+	/* font-weight: lighter; */
+	font-variant: small-caps;
+	padding: 0;
+	margin-right: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+div#menu{
+	margin-left: 2em;
+	
+}
+div.btaajax{
+	margin-left:6.5em;	
+}
+font.txnome{
+	margin-left:0.1em;
+	margin-right:1em;	
+}
+div#menu a{
+	color:blue;
+	margin-left:2em;
+}
+
+div#menu a:hover{
+	cursor: pointer;
+}
+	
+img.fotopart{
+	border-radius:0.4em;		
+}
+div.listathumbs li{
+	display: inline-block;
+	margin:0.5em;
+}
+img.thumbnail{
+	width: 50px;
+	height:50px;
+	border-radius:0.2em;	
+}
+img.thumbnailsel{
+	width: 60px;
+	height:60px;
+	border-radius:0.2em;
+	border-color: gold;
+	border-width: medium;
+	border-style: solid;
+}
+.ultperf{
+	font-size: small;
+	color:green;
+		
+}
+
+ul{
+	padding:0;
+	list-style-type: none;	
+}
+
+p{
+    text-indent: 2em;
+    text-align: justify;
+}
+
+body>header {
+    background-color: rgb(252, 237, 218);
+    border-style: solid;
+    border-width: thin medium thin medium;
+    border-color: green;
+    border-radius: 1em;
+    margin:5% auto;    
+}
+
+body>header:hover{
+    box-shadow: 5px 5px 10px #444;
+}
+
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(85,107,47);
+    font-family: fantasy;
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+}
+
+h2{
+    font-family: monospace;
+    border: thin solid black;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    border-radius: 0.5em 0.4em 0.6em 0.7em;
+    border-style: dashed;
+    border-color: green;
+}
+
+h2:hover{
+    background-color: rgb(85,107,47);
+    font-size: 1.6em;
+    color:white;
+}
+
+main dt{
+    border: thin solid green;  
+    width: 95%;
+    margin: auto;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+main dd{
+    margin-left:2em;
+    text-align: left;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav{
+    margin-top: 1em;
+    padding: 0.3em;
+}
+
+nav ul {
+    list-style-type:nome;
+    text-align:center;
+    padding:0;
+}
+		
+nav li{
+    display:inline; 
+}
+
+div#flashMessage{
+	width:40%;
+	text-align:center;
+	background-color: #f0ad4e;
+	height: 2.3em;
+	border-radius:0.3em;	
+	color:white;
+	font-weight: bold;
+	margin:auto;
+	margin-bottom: 2em;
+}
+
+nav a{
+    background-color:rgb(85,107,47);
+    padding: 5px 15px;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+nav a:hover{
+    color:yellow;
+    background-color:gold;
+}
+
+
+
+figure.caixafotoaluno>img{
+    width: 240px;
+    height: 320px;
+    border-radius: 1em;
+    border-radius: 1em;
+}
+
+header+main{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+section#objetivos ol>li{
+    margin-top: 2em;
+}
+
+section#album li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+}
+
+section#album figure.caixafotoaluno>img:hover{
+    border: thick solid gold;
+}
+
+section#album figure.caixafotoaluno figcaption{
+    max-width: 240px;
+    overflow: auto;
+    margin: 10px auto;
+    font-size: small;
+    max-height: 2em;
+    text-align: center;
+    border:thin solid black;
+    border-radius: 1em;
+}
+
+section#album figure.caixafotoaluno figcaption:hover{
+    border-color: gold;
+}
+
+body>footer{
+    font-size:0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: medium solid green;
+    border-bottom: medium solid green;
+    margin-top:5em;
+ }
+
+footer>blockquote {
+    text-align: justify;
+    text-indent: 2em;
+    min-width: 30em;
+    max-width: 50em;
+    margin-left:auto;
+}
+
+blockquote  em{
+    font-size:1.1em;
+}
+
+p#copyright{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1em;
+}

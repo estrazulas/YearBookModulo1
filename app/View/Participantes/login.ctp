@@ -23,8 +23,8 @@
             <?php echo __('Digite seu login e senha'); ?>
         </legend>
         <?php 
-            echo $this->Form->input('login', array('label'=>'Login:'));
-            echo $this->Form->input('senha', array('label'=>'Senha:', 'type'=>'password'));
+            echo $this->Form->input('login', array('label'=>'Login:', 'autocomplete' => 'off'));
+            echo $this->Form->input('senha', array('label'=>'Senha:', 'type'=>'password','autocomplete' => 'off'));
             echo $this->Form->end(__('Entrar'));
             ?>
     </fieldset>
